@@ -24,8 +24,27 @@ let myObj = {
 
 const myFunction = function(){ // function
     console.log("Hello world");
-    
 }
 
-console.log(typeof myObj);
+// console.log(typeof myObj);
 
+//*************************  Memory  ***********************************
+
+// Stack (Primitive), Heap (Non-Primitive)<- we can get reference value
+
+let myName = "Chandan Paul"
+let anotherName = myName
+anotherName = "Biru"
+console.log(myName);
+console.log(anotherName);
+
+let userOne = {
+    email: "chandan@gmail.com",
+    upiId: "1234"
+}
+let userTwo = userOne
+
+userTwo.email = "biru@gmail.com"
+
+console.log(userOne);
+console.log(userTwo);
