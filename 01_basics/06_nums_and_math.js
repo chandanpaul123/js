@@ -23,7 +23,7 @@ const hundreds = 1000000000000
 // console.log(Math.sqrt(4)); // 2
 // console.log(Math.max(52,  44, 66, 88, 33, 99, 33)); //99
 console.log(Math.random());
-console.log((Math.random()*10) + 1);
+console.log((Math.random()*10) + 1); // avoid zeros
 console.log(Math.floor(Math.random()*10) + 1);
 
 const min = 10
