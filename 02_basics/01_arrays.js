@@ -33,3 +33,11 @@ console.log("B", myArray);
 const myn2 = myArray.splice(1, 3)
 console.log("C", myArray);
 console.log(myn2);
+
+//o/p
+// S [ 0, 1, 2, 3, 4, 5 ]
+// A [ 0, 1, 2, 3, 4, 5 ]
+// [ 1, 2, 3, 4 ]
+// B [ 0, 1, 2, 3, 4, 5 ]
+// C [ 0, 4, 5 ]
+// [ 1, 2, 3 ]
